@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+    background-color: #B33771;
+}#headerSection{
+    padding: 10px;
+}#headerSection{
+    font-family: 'Times New Roman', Times, serif;
+}input{
+    padding: 10px;
+    border-radius: 5px;
+}#dropbox{
+    padding: 10px;
+    border-radius: 5px;
+    width: 15%;
+}#loginbtn{
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: #cf6a87;
+    color: #303952;
+}
