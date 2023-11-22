@@ -24,8 +24,12 @@
                 padding: 10px;
             }
         </style>
+        <center>
+        <div id="headerSection">
         <h1>Online Voting System</h1>
+    </div>
         <hr>
+        <div id="bodySection">
         <h3>Registration</h3>
         <form action="../api/register.php" method="POST" enctype="multipart/form-data">
             <input type="text" name="name" placeholder="Enter Name">
@@ -33,7 +37,7 @@
             <input type="password" name="password" placeholder="Password">
             <input type="password" name="cpassword" placeholder="Confirm Password"><br><br>
             <input id="address" type="text" name="address" placeholder="Address"><br><br>
-            <center>
+            
             <div id="imagepart">
                 Upload image: <input type="file" name="photo" >
                
@@ -44,7 +48,7 @@
                     <option value="2">Group</option>
                 </select>
             </div>
-            </center>
+           
             <br><br>
             <button style=" padding: 5px;
             font-size: 15px;
@@ -53,5 +57,7 @@
             color: #303952;">Register</button><br><br>
             Already User? <a href="../index.html">Login Here</a>
         </form>
+    </div>
+</center>
     </body>
 </html>
