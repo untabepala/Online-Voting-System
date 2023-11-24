@@ -1,6 +1,6 @@
 body{
     text-align: center;
-    background-color: #B33771;
+    background-image: url(wp.png);
 }#headerSection{
     padding: 10px;
 }#headerSection{
@@ -16,6 +16,6 @@ body{
     padding: 5px;
     font-size: 15px;
     border-radius: 5px;
-    background-color: #cf6a87;
+    background-color: #746acf;
     color: #303952;
 }
